@@ -19,7 +19,7 @@
   min-block-size: 100dvb;
   padding-top: 100px;
   font-family: var(--main-font), sans-serif;
-  font-variation-settings: 'wgth' var(--main-card-font-weight);
+  font-variation-settings: 'wgth' var(--main-font-weight);
   color: var(--accent-color);
   font-size: 18px;
   background-image: var(--background-image);

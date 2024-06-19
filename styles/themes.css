@@ -8,27 +8,30 @@
 :root.theme-dark {
     --accent-color: #00CC14;
     --label-line-color: #000;
+
     --background-image: 
     repeating-linear-gradient(to right, #000 0 2px, rgba(0, 0, 0, 0) 2px 4px),
     repeating-linear-gradient(to bottom, #000 0 2px, rgba(0, 0, 0, 0) 2px 4px),
     linear-gradient(to bottom, #007f0c 0.1%, #004306);
+    
     --background-color: #000;
-    --main-card-font-weight: 465;
-    --header-card-font-weight: 785;
+    --main-font-weight: 465;
+    --header-font-weight: 785;
     --color-button-text: #00CC14;
 }
 
 :root.theme-light {
     --accent-color: #000;
     --label-line-color: #fff;
+
     --background-image:
     repeating-linear-gradient(to right, #d3d3d3 0 2px, rgba(0, 0, 0, 0) 2px 4px),
     repeating-linear-gradient(to bottom, #d3d3d3 0 2px, rgba(0, 0, 0, 0) 2px 4px),
     linear-gradient(to bottom, #e7e7e7 0.1%, #1a1a1a);
-      
+
     --background-color: #fff;
-    --main-card-font-weight: 400;
-    --header-card-font-weight: 700;
+    --main-font-weight: 400;
+    --header-font-weight: 700;
     --color-button-text: #fff;
 }
 
@@ -36,15 +39,14 @@
   :root {
     --accent-color: #00CC14;
     --label-line-color: #000;
+
     --background-image:
     repeating-linear-gradient(to right, #000 0 2px, rgba(0, 0, 0, 0) 2px 4px),
-    repeating-linear-gradient(to bottom, #000 0 2px, rgba(0, 0, 0, 0) 2px 4px),
-    linear-gradient(to bottom, #007f0c 0.1%, #004306); 
-  
-    --background-color: #000;
-    --main-card-font-weight: 465;
-    --header-card-font-weight: 785;
+    repeating-linear-gradient(to bottom, #000 0 2px, rgba(0, 0, 0, 0) 2px 4px), linear-gradient(to bottom, #007f0c 0.1%, #004306);
 
+    --background-color: #000;
+    --main-font-weight: 465;
+    --header-font-weight: 785;
     --color-button-text: #00CC14;
   }
 }
@@ -53,16 +55,14 @@
   :root {
     --accent-color: #000;
     --label-line-color: #fff;
+
     --background-image: 
     repeating-linear-gradient(to right, #d3d3d3 0 2px, rgba(0, 0, 0, 0) 2px 4px),
-    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, rgba(0, 0, 0, 0) 2px 4px),
-    linear-gradient(to bottom, #e7e7e7 0.1%, #1a1a1a);
-      
-   
-    --background-color: #fff;
-    --main-card-font-weight: 400;
-    --header-card-font-weight: 700;
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, rgba(0, 0, 0, 0) 2px 4px),linear-gradient(to bottom, #e7e7e7 0.1%, #1a1a1a);
 
-    --color-button-text: #fff;
-}
+    --background-color: #fff;
+    --main-font-weight: 400;
+    --header-font-weight: 700;
+  --color-button-text: #fff;
+  }
 }
