@@ -32,25 +32,24 @@
     --color-button-text: #fff;
 }
 
-@media (prefers-color-scheme: dark){
-:root {
-  --accent-color: #00CC14;
-  --label-line-color: #000;
-  --background-image:
-  repeating-linear-gradient(to right, #000 0 2px, rgba(0, 0, 0, 0) 2px 4px),
-  repeating-linear-gradient(to bottom, #000 0 2px, rgba(0, 0, 0, 0) 2px 4px),
-  linear-gradient(to bottom, #007f0c 0.1%, #004306); 
-    
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent-color: #00CC14;
+    --label-line-color: #000;
+    --background-image:
+    repeating-linear-gradient(to right, #000 0 2px, rgba(0, 0, 0, 0) 2px 4px),
+    repeating-linear-gradient(to bottom, #000 0 2px, rgba(0, 0, 0, 0) 2px 4px),
+    linear-gradient(to bottom, #007f0c 0.1%, #004306); 
   
-  --background-color: #000;
-  --main-card-font-weight: 465;
-  --header-card-font-weight: 785;
+    --background-color: #000;
+    --main-card-font-weight: 465;
+    --header-card-font-weight: 785;
 
-  --color-button-text: #00CC14;
-}
+    --color-button-text: #00CC14;
+  }
 }
 
-@media (prefers-color-scheme: light){
+@media (prefers-color-scheme: light) {
   :root {
     --accent-color: #000;
     --label-line-color: #fff;
