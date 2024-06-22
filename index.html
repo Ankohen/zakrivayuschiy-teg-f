@@ -19,7 +19,7 @@
   </head>
   <body class="page">
     <header class="header">
-      <p class="p">&lt;/HTML&gt;</p>
+      <a class="p">&lt;/html&gt;</a>
       <h1 class="title__header">закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
@@ -54,7 +54,7 @@
             Фритрек и нулевой спринт: Подготовка к работе
           </h2>
           <div class="card__item_watermark__and__img">
-            <span class="card__item_watermark">&lt;/HTML&gt;</span>
+            <span class="card__item_watermark">&lt;/html&gt;</span>
             <img 
               class="card__item_img image1"
               src="./images/image.svg"
@@ -83,7 +83,7 @@
             1 спринт: Я — чистый лист
           </h2>
           <div class="card__item_watermark__and__img">
-            <span class="card__item_watermark">&lt;/HTML&gt;</span>
+            <span class="card__item_watermark">&lt;/html&gt;</span>
             <img 
               class="card__item_img image2"
               src="./images/image.svg"
@@ -288,34 +288,34 @@
           </div>
         </li>
       </ul>
-    </main>
-    <footer>
       <button type="button" 
       onclick="window['dialog-id'].showModal();" 
       aria-controls="dialog-id" class="button__save__memory">
-      <svg 
-      class="floppy__img">
-        <use href="/svg/floppy1.svg#floppy1"></use>
-      </svg>         
+      <svg class="floppy__img" viewBox="0 0 20 20">
+        <use href="svg/floppy.svg#floppy"></use>
+      </svg>      
        <span class="button__text">Сохранить на память</span> 
       </button>
-    </footer>
+    </main>
     <dialog id="dialog-id" class="window">
       <div class="window_dialog">
         <div class="window__img">
-          <svg 
-          class="window__floppy__img">
+          <svg class="window__floppy__img" viewBox="0 0 20 20">
             <use href="svg/floppy.svg#floppy"></use>
           </svg>
           <p class="window__text">Вставьте дискету, чтобы продолжить</p>
         </div>
         <form method="dialog">
           <button class="window__button">
-            <span class="button__text">ОК</span>
+            <span class="button__text">ок</span>
           </button>
         </form>
       </div>
       </dialog>
     <script src="./scripts/like.js"></script>
   </body>
-</html>
+</html> 
+
+
+
+
