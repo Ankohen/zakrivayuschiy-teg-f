@@ -163,6 +163,7 @@
 
 .card__text {
   margin: 27px 26px 26px 25px;
+  line-height: 21px;
 }
 
 .card__button {
